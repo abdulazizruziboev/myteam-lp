@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myteam</title>
+    <link rel="stylesheet" href="/sources/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Livvic]">
+    
+    <header class="flex justify-center items-center bg-[#014e56] z-[35]">
+
+        <div class="w-full max-w-[1134px] px-[24px] mx-auto flex justify-between py-[48px] items-center gap-[4px]">
+
+            <a href="/">
+                <img src="/resources/images/logo.svg" alt="myteam logo" class="max-w-[128px] w-full h-[32px] xl:max-w-[159px]">
+            </a>
+            
+            <input type="checkbox" id="barCheckbox" aria-hidden="true" class="peer" checked hidden>
+
+            <nav class="flex h-[100%] w-full flex-col justify-center items-center gap-[20px] text-white font-[600] text-[18px] hidden z-[50] bg-[#014e56] peer-checked:flex fixed left-0 bottom-0  md:flex-row md:justify-end  md:static md:bg-transparent md:flex">
+
+                <label for="barCheckbox" class="cursor-pointer w-[24px] h-[24px] top-12.5 right-6 absolute md:hidden">
+                    <img src="/resources/images/icons/bar.svg" alt="Bar icon" class="pointer-events-none w-[24px] h-[24px]">
+                </label>
+
+                <a href="#" class="hover:opacity-75 transition-opacity duration-300">
+                    home
+                </a>
+
+                <a href="#" class="hover:opacity-75 transition-opacity duration-300">
+                    about
+                </a>
+
+                <a href="#" class="md:border-2 border-white md:p-[9px_32.5px] rounded-full transition-colors duration-300 hover:opacity-75 transition-opacity duration-300 md:ml-[5px] md:hover:text-[#014e56] md:hover:bg-[#fff]">
+                    contact us
+                </a>
+
+            </nav>
+
+            <label for="barCheckbox" class="cursor-pointer w-[24px] h-[24px] md:hidden">
+                <img src="/resources/images/icons/bar.svg" alt="Bar icon" class="pointer-events-none w-[24px] h-[24px]">
+            </label>
+
+        </div>
+
+    </header>
+
+    <main class="min-h-[100vh]">
+
+        <section class="bg-[#014e56]">
+
+            <div class="w-full max-w-[1134px] px-[24px] mx-auto text-center text-white py-[34px] pb-[124px] xl:pb-[100px] xl:flex flex-row gap-[165px]">
+
+                <h1 class="font-[700] text-[40px] leading-[40px] mb-[16px] md:text-[64px]">
+                    About
+                </h1>
+                
+                <p class="font-[600] text-[15px] leading-[28px] md:max-w-[600px] mx-auto xl:text-start xl:max-w-[730px] xl:mr-[35px] xl:text-[18px]">
+                    We help companies build dynamic teams made up of top global talent. Using our network of passionate professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best products and experiences. We’ll bring those teams to you.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="bg-[#004047]  xl:pb-[105px]">
+
+            <div class="w-full max-w-[1134px] px-[24px] mx-auto text-white py-[88px]">
+
+            <h2 class="font-[700] text-center text-[32px] leading-[32px] mb-[16px] text-white text-[48px]">
+                Meet the directors
+            </h2>
+
+            <div class="mt-[48px] flex justify-center items-center w-full gap-[52px] flex-col md:flex-row md:flex-wrap md:gap-x-[11px] xl:gap-x-[30px]">
+
+                <article class="w-full bg-[#012f34] p-[32px] pb-[56px] flex justify-center items-center flex-col gap-[10px] relative md:max-w-[281px] md:min-h-[281px] md:max-w-[342px] md:min-h-[325px]">
+
+                    <img src="/resources/images/persons/person-1.png" alt="Person 1">
+
+                    <div class="flex flex-col text-center mt-[12px]">
+                        <h3 class="font-[700] text-center text-[18px] leading-[28px] text-[rgba(121,200,199,1)]">Nikita Marks</h3>
+                        <p class="italic">
+                            Founder & CEO
+                        </p>
+                    </div>
+
+                    <button class="bg-[rgba(246,126,126,1)] w-[56px] h-[56px] flex justify-center items-center rounded-full absolute bottom-[-28px] cursor-pointer hover:scale-105 active:scale-95 transition-[rotate_1s_linear]">
+                        <img src="/resources/images/icons/plus.svg" alt="">
+                    </button>
+
+                </article>
+
+                <article class="w-full bg-[#012f34] p-[32px] pb-[56px] flex justify-center items-center flex-col gap-[10px] relative md:max-w-[281px] md:min-h-[281px] md:max-w-[342px] md:min-h-[325px]">
+
+                    <img src="/resources/images/persons/person-2.png" alt="Person 1">
+
+                    <div class="flex flex-col text-center mt-[12px]">
+                        <h3 class="font-[700] text-center text-[18px] leading-[28px] text-[rgba(121,200,199,1)]">Cristian Duncan</h3>
+                        <p class="italic">
+                            Co-founder & COO
+                        </p>
+                    </div>
+
+                    <button class="bg-[rgba(246,126,126,1)] w-[56px] h-[56px] flex justify-center items-center rounded-full absolute bottom-[-28px] cursor-pointer hover:scale-105 active:scale-95 transition-[rotate_1s_linear]">
+                        <img src="/resources/images/icons/plus.svg" alt="">
+                    </button>
+
+                </article>
+
+                <article class="w-full bg-[#012f34] p-[32px] pb-[56px] flex justify-center items-center flex-col gap-[10px] relative md:max-w-[281px] md:min-h-[281px] md:max-w-[342px] md:min-h-[325px]">
+
+                    <img src="/resources/images/persons/person-3.png" alt="Person 1">
+
+                    <div class="flex flex-col text-center mt-[12px]">
+                        <h3 class="font-[700] text-center text-[18px] leading-[28px] text-[rgba(121,200,199,1)]">Cruz Hamer</h3>
+                        <p class="italic">
+                            Co-founder & COO
+                        </p>
+                    </div>
+
+                    <button class="bg-[rgba(246,126,126,1)] w-[56px] h-[56px] flex justify-center items-center rounded-full absolute bottom-[-28px] cursor-pointer hover:scale-105 active:scale-95 transition-[rotate_1s_linear]">
+                        <img src="/resources/images/icons/plus.svg" alt="">
+                    </button>
+
+                </article>
+
+            </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-[rgba(1,47,52,1)]">
+
+            <div class="w-full max-w-[1134px] px-[24px] mx-auto text-white py-[88px]">
+                
+                <h2 class="font-[700] text-center text-[32px] leading-[32px] mb-[16px] text-white xl:text-[48px]">
+                    Some of our clients
+                </h2>
+
+                <div class="flex justify-center items-center flex-col gap-[45px] mt-[52px] md:flex-row">
+
+                    <a href="#">
+                        <img src="/resources/images/client-logos/the-verge.svg" alt="The Verge Logo">
+                    </a>
+
+                    <a href="#">
+                        <img src="/resources/images/client-logos/the-jakarta-post.svg" alt="The Jakarta Post Logo">
+                    </a>
+
+                    <a href="#">
+                        <img src="/resources/images/client-logos/the-guardian.svg" alt="The Guardain Logo">
+                    </a>
+
+                    <a href="#">
+                        <img src="/resources/images/client-logos/tech-radar.svg" alt="Tech Radar Logo">
+                    </a>
+                    
+                    <a href="#">
+                        <img src="/resources/images/client-logos/gadgets-now.svg" alt="Tech Radar Logo">
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-[rgba(246,126,126,1)]">
+
+            <div class="w-full max-w-[945px] px-[24px] mx-auto py-[83px] flex flex-col justify-center items-center xl:flex-row xl:justify-between">
+
+                <h2 class="font-[700] text-center text-[32px] leading-[32px] mb-[24px] xl:text-[48px]">
+                    Ready to get started?
+                </h2>
+
+                <a href="#" class="border-2 text-[18px] font-[600] leading-[28px] p-[9px_30px] rounded-full hover:bg-black hover:text-[rgba(246,126,126,1)] transition-colors duration-300 md:max-w-[155px]">
+                    contact us
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-[rgba(0,37,41,1)]">
+        
+        <div class="w-full max-w-[1134px] px-[24px] mx-auto flex flex-col gap-[24px] justify-center items-center  py-[66px] md:flex-row md:justify-between md:py-[33px]">
+
+            <a href="#">
+                <img src="/resources/images/logo.svg" alt="myteam logo" class="max-w-[128px] w-full h-[32px] xl:max-w-[159px]">
+            </a>
+
+            <div class="flex gap-[16px] items-center justify-center">
+                
+                <a href="#" class="hover:opacity-75 transition-opacity duration-300">
+                    <img src="/resources/images/social-icons/facebook.svg" alt="Facebook logo">
+                </a>
+
+                <a href="#" class="hover:opacity-75 transition-opacity duration-300">
+                    <img src="/resources/images/social-icons/pinterest.svg" alt="Pinterest logo">
+                </a>
+
+                <a href="#" class="hover:opacity-75 transition-opacity duration-300">
+                    <img src="/resources/images/social-icons/twitter.svg" alt="Twitter logo">
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

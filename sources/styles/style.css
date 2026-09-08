@@ -432,6 +432,9 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-\[rgba\(1\,47\,52\,1\)\] {
+    border-color: rgba(1,47,52,1);
+  }
   .border-white {
     border-color: var(--color-white);
   }
@@ -543,6 +546,9 @@
     --tw-font-weight: 700;
     font-weight: 700;
   }
+  .text-\[rgba\(1\,47\,52\,1\)\] {
+    color: rgba(1,47,52,1);
+  }
   .text-\[rgba\(121\,200\,199\,1\)\] {
     color: rgba(121,200,199,1);
   }
@@ -629,14 +635,29 @@
     .hover\:transform-\[rotate\]:hover {
       transform: rotate;
     }
+    .hover\:border-\[\[rgba\(1\,47\,52\,1\)\]\]:hover {
+      border-color: [rgba(1,47,52,1)];
+    }
+    .hover\:border-\[rgba\(1\,47\,52\,1\)\]:hover {
+      border-color: rgba(1,47,52,1);
+    }
+    .hover\:bg-\[rgba\(1\,47\,52\,1\)\]:hover {
+      background-color: rgba(1,47,52,1);
+    }
     .hover\:bg-black:hover {
       background-color: var(--color-black);
     }
     .hover\:text-\[\#\]:hover {
       color: #;
     }
+    .hover\:text-\[rgba\(1\,47\,52\,1\)\]:hover {
+      color: rgba(1,47,52,1);
+    }
     .hover\:text-\[rgba\(246\,126\,126\,1\)\]:hover {
       color: rgba(246,126,126,1);
+    }
+    .hover\:text-white:hover {
+      color: var(--color-white);
     }
     .hover\:opacity-75:hover {
       opacity: 75%;
@@ -830,6 +851,18 @@
     }
     .xl\:gap-x-\[39ox\] {
       column-gap: 39ox;
+    }
+    .xl\:py-\[40px\] {
+      padding-block: 40px;
+    }
+    .xl\:py-\[60px\] {
+      padding-block: 60px;
+    }
+    .xl\:py-\[70px\] {
+      padding-block: 70px;
+    }
+    .xl\:py-\[75px\] {
+      padding-block: 75px;
     }
     .xl\:pb-\[15px\] {
       padding-bottom: 15px;
